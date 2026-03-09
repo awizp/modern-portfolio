@@ -9,6 +9,6 @@
    3. Unicons
    4. Swiper
 
-**🔗 demo:** [portfolio-link](https://awizp.netlify.app/)
+**🔗 Visit:** [awizp.netlify.app](https://awizp.netlify.app/)
 
    ![Portfolio UI](https://github.com/awizp/modern-portfolio/blob/main/public/design.png)
