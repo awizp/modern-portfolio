@@ -307,7 +307,7 @@ img {
 }
 
 .home__blob {
-  width: 360px;
+  width: 320px;
   filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.15));
   fill: var(--first-color);
 }
@@ -872,6 +872,12 @@ img {
 
 }
 
+@media screen and (min-width: 350px) {
+  .home__blob {
+    width: 220px;
+  }
+}
+
 /* For medium devices */
 @media screen and (min-width: 568px) {
   .home__content {
@@ -885,6 +891,10 @@ img {
   .home__img {
     order: 1;
     justify-self: center;
+  }
+
+  .home__blob {
+    width: 250px;
   }
 
   .about__container,
@@ -961,6 +971,10 @@ img {
     margin: -.25rem 0 0;
   }
 
+  .home__blob {
+    width: 280px;
+  }
+
   .home__container {
     row-gap: 5rem;
   }
@@ -968,10 +982,6 @@ img {
   .home__content {
     padding: 5.5rem 5.5rem 3rem;
     column-gap: 2rem;
-  }
-
-  .home__blop {
-    width: 270px;
   }
 
   .home__scroll {
@@ -1125,6 +1135,4 @@ img {
   .contact__inputs {
     grid-template-columns: repeat(2, 1fr);
   }
-
-
 }
