@@ -19,8 +19,7 @@ const Qualification = () => {
 
                 {item.year && (
                     <div className="qualification__calendar">
-                        <i className="uil uil-calendar-alt"></i>
-                        {item.year}
+                        <i className="uil uil-calendar-alt"></i> {item.year}
                     </div>
                 )}
 
