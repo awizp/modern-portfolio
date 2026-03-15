@@ -1,17 +1,17 @@
 export const educationData = [
     {
         title: "BE Mechanical Engineering",
-        subtitle: "Anna university, TamilNadu",
+        subtitle: "Anna university, Tamil Nadu",
         year: " 2015 - 2019"
     },
     {
         title: "HSC",
-        subtitle: "SRNV higher secondary school, TamilNadu",
+        subtitle: "SRNV higher secondary school, Tamil Nadu",
         year: " 2013 - 2015"
     },
     {
         title: "SSLC",
-        subtitle: "Hindu higher secondary school, TamilNadu",
+        subtitle: "Hindu higher secondary school, Tamil Nadu",
         year: " 2012 - 2013"
     }
 ];
